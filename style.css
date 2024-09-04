@@ -171,10 +171,26 @@ a {
   padding-bottom: 20px; /* Menambahkan padding bottom untuk memberi ruang di bagian bawah */
 }
 
-.aboutUs {
-  text-align: center;
+.aboutUs h1 {
+  text-align: end;
   padding: 20px;
-  font-family: Poppins, sans-serif;
-  margin-top: 300px;
+  font-family: Super Bubble;
+  margin-top: 270px;
+  margin-right: 300px;
+}
+
+.aboutUs p {
+  font-family: Poppins;
+  line-height: 1.6;
+  text-align: justify;
+  padding-right: 0px;
+}
+
+.aboutUs img {
+  height: 65vh;
+  height: 65vh;
+  justify-content: center;
+  padding-left: 50px;
+  margin-bottom: 100px;
 }
 
