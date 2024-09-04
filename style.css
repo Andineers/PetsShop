@@ -7,7 +7,7 @@
   padding: 0;
 }
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .menu {
   display: flex;
@@ -37,7 +37,7 @@ body {
   border-radius: 100%;
   position: absolute;
   right: -195px;
-  top: -100px;
+  top: -140px;
   z-index: -1;
   display: flex;
   align-items: center;
@@ -73,7 +73,7 @@ a {
   font-size: 20px;
   font-weight: 600;
   font-family: Poppins;
-  padding: 5px 7px;
+  padding: 3px 7px;
   text-align: center;
 }
 #btn-login {
@@ -89,7 +89,7 @@ a {
   font-family: "Super Bubble";
   color: #ef5124;
   width: 450px;
-  font-size: 38px;
+  font-size: 32px;
 }
 .mainvw {
   display: flex;
@@ -118,8 +118,8 @@ a {
   height: 100px;
   width: 100%;
   background-color: #ef5124;
-  margin-top: 265px;
-  /* position: absolute; */
+  margin-top: 224px;
+  position: absolute;
   display: flex;
   gap: 300px;
 }
@@ -165,6 +165,16 @@ a {
   left: 700px;
   top: 350px;
 }
-#About {
-  /* margin-top: 2000px; */
+
+.container {
+  margin-top: px; /* Menambahkan margin top jika diperlukan */
+  padding-bottom: 20px; /* Menambahkan padding bottom untuk memberi ruang di bagian bawah */
 }
+
+.aboutUs {
+  text-align: center;
+  padding: 20px;
+  font-family: Poppins, sans-serif;
+  margin-top: 300px;
+}
+
