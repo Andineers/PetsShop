@@ -1,116 +1,133 @@
 /* CSS Global */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f8f9fa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    flex-direction: column; /* Menyusun elemen secara vertikal */
-  }
-  
-  /* Container untuk gambar */
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px; /* Jarak antara gambar dan form */
-  }
-  
-  .container img {
-    max-width: 150px; /* Atur ukuran maksimal gambar */
-    height: auto;
-  }
-  
-  /* Login Form */
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin: 0;
+  position: relative; /* Untuk positioning footer */
+  overflow-y: hidden;
+}
+
+
+/* Container untuk gambar */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px; /* Jarak antara gambar dan form */
+}
+
+.container img {
+  max-width: 250px; /* Atur ukuran maksimal gambar */
+}
+
+/* Login Form */
+.login-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Gambar dan form di tengah */
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 30px;
+  width: 100%; /* Mengisi lebar form */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #ef5124;
+  outline: none;
+}
+
+/* Form Options */
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Mengisi lebar form */
+  margin-bottom: 20px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+.forgot-password {
+  font-size: 12px;
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.forgot-password:hover {
+  color: #ef5124;
+}
+
+/* Login Button */
+.login-button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #ef5124;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #781d04;
+}
+
+footer {
+  position: absolute;
+ bottom: -145px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #f8f9fa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .login-form {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 350px;
-  }
-  
-  /* Form Group */
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: #333;
-  }
-  
-  .form-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #d0d0d0;
-    border-radius: 5px;
-    font-size: 14px;
-    color: #333;
-    transition: border-color 0.3s;
-  }
-  
-  .form-group input:focus {
-    border-color: #28a745;
-    outline: none;
-  }
-  
-  /* Form Options */
-  .form-options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .checkbox-group {
-    display: flex;
-    align-items: center;
-  }
-  
-  .checkbox-group input[type="checkbox"] {
-    margin-right: 5px;
-    width: 16px;
-    height: 16px;
-  }
-  
-  .forgot-password {
-    font-size: 12px;
-    color: #6c757d;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  .forgot-password:hover {
-    color: #28a745;
-  }
-  
-  /* Login Button */
-  .login-button {
-    width: 100%;
-    padding: 12px 0;
-    background-color: #28a745;
-    color: #fff;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .login-button:hover {
-    background-color: #218838;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .login-form {
       width: 100%;
       padding: 20px;
-    }
   }
-  
+}
