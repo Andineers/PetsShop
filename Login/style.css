@@ -1,4 +1,4 @@
-/* CSS Global */
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f8f9fa;
@@ -7,8 +7,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 600px;
-  margin: 0;
-  position: relative; /* Untuk positioning footer */
   overflow-y: hidden;
 }
 
@@ -22,10 +20,10 @@ body {
 }
 
 .container img {
-  max-width: 250px; /* Atur ukuran maksimal gambar */
+  max-width: 100px; /* Atur ukuran maksimal gambar */
 }
 
-/* Login Form */
+
 .login-form {
   background-color: #fff;
   padding: 30px;
@@ -37,7 +35,7 @@ body {
   align-items: center; /* Gambar dan form di tengah */
 }
 
-/* Form Group */
+
 .form-group {
   margin-bottom: 30px;
   width: 100%; /* Mengisi lebar form */
@@ -65,12 +63,11 @@ body {
   outline: none;
 }
 
-/* Form Options */
 .form-options {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Mengisi lebar form */
+  width: 100%; 
   margin-bottom: 20px;
 }
 
@@ -85,6 +82,7 @@ body {
   height: 16px;
 }
 
+
 .forgot-password {
   font-size: 12px;
   color: #6c757d;
@@ -96,7 +94,6 @@ body {
   color: #ef5124;
 }
 
-/* Login Button */
 .login-button {
   width: 100%;
   padding: 12px 0;
@@ -115,7 +112,7 @@ body {
 
 footer {
   position: absolute;
- bottom: -145px;
+ bottom: -16px;
   width: 100%;
   display: flex;
   justify-content: center;
