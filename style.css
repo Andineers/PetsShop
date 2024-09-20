@@ -129,7 +129,7 @@ a {
   width: 159px;
   background-color: #ffffcd;
   position: relative;
-  top: -90px;
+  top: -96px;
   margin-left: 80px;
 }
 .discount img {
@@ -169,6 +169,7 @@ a {
 .container {
   margin-top: px; /* Menambahkan margin top jika diperlukan */
   padding-bottom: 20px; /* Menambahkan padding bottom untuk memberi ruang di bagian bawah */
+  grid-column: span;
 }
 
 .aboutUs h1 {
