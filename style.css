@@ -8,6 +8,7 @@
 }
 body {
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 .menu {
   display: flex;
@@ -167,31 +168,171 @@ a {
 }
 
 .container {
-  margin-top: px; /* Menambahkan margin top jika diperlukan */
-  padding-bottom: 20px; /* Menambahkan padding bottom untuk memberi ruang di bagian bawah */
-  grid-column: span;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* About Us Section */
+.aboutUs {
+  padding: 40px;
 }
 
 .aboutUs h1 {
-  text-align: end;
-  padding: 20px;
-  font-family: Super Bubble;
-  margin-top: 270px;
-  margin-right: 300px;
+  font-family: 'Super Bubble', sans-serif;
+  font-size: 36px;
+  color: #333;
+  top: 170px;
+  position: relative;
+  left: 760px;
 }
 
-.aboutUs p {
-  font-family: Poppins;
+.about-content {
+  display: flex; /* Flexbox for horizontal alignment */
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.about-text {
+  max-width: 40%;
+  text-align: left;
+  padding-right: 50px;
+}
+
+.about-text p {
+  font-size: 18px;
   line-height: 1.6;
-  text-align: justify;
-  padding-right: 0px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 300px;
 }
 
-.aboutUs img {
-  height: 65vh;
-  height: 65vh;
-  justify-content: center;
-  padding-left: 50px;
-  margin-bottom: 100px;
+.about-images {  
+  position: relative; /* Set the parent to relative positioning */  
+  width: 250px; /* Set a width for the container */  
+  height: 250px; /* Set a height for the container */  
+}  
+
+.about-images img {  
+  position: absolute; /* Use absolute positioning for the images */  
+  width: 450px; /* Set the width for the images */  
+  height: 450px; /* Set the height for the images */  
+  border-radius: 10px;  
+  object-fit: cover;  
+  top: 100px;
+}  
+ 
+
+.about-images img:last-child {  
+  z-index: 0; /* Ensure the first image is below */  
+  top: 100px; /* Adjust the position of the first image */  
+  left: 100px; /* Align it to the left */ 
+  width: 500px; 
+  height: 130px;
+  top: 450px;
+  gap: 80px;
 }
+
+
+.categories-section {
+  background-color: #FFD700;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 300px;
+}
+
+ .categories-section h2 {
+  font-family: 'Super Bubble', sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-item img {
+  width: 80px;
+  height: 80px;
+}
+
+.category-item p {
+  margin-top: 10px;
+  font-weight: bold;
+}  */
+
+/* Product Carousel */
+/* .product-carousel {
+  background-color: #FF4500;
+  padding: 40px 0;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin: 5px 0;
+} */
+
+/* Our Services Section */
+/* .services-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-family: 'Super Bubble', sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 16px;
+} */
 
