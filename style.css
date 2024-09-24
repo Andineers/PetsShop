@@ -243,10 +243,16 @@ a {
   margin-top: 300px;  
 }  
 
+.logo-categories img {
+  display: flex;
+  padding: 0;
+  margin-top: -50px;
+}
+
 .categories-section h2 {  
   font-family: 'Super Bubble', sans-serif;  
   font-size: 32px;  
-  margin-bottom: 20px;  
+  margin-bottom: 70px;  
 }  
 
 .categories {  
@@ -280,7 +286,77 @@ a {
   font-family: 'Poppins';
 }
 
-.product-carousel {
+.product-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  background-color: #173340;
+  border-radius: 10px;
+  width: 160px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-header {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.product-header i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.product-image img {
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-details h3 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.product-price-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.product-price-rating .price {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.product-price-rating .rating i {
+  color: #ffc107; /* Warna bintang */
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  color: white;
+}
+
+.add-to-cart i {
+  font-size: 22px;
+  color: #ffc107; /* Warna tombol keranjang */
+  cursor: pointer;
+}
+
+
+
+
+/* .product-carousel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,15 +408,15 @@ a {
 }  
 
 .rating {  
-  color: #FFD700; /* Gold color for stars */  
+  color: #FFD700;
 }  
 
-.favorite {  
+/* .favorite {  
   background: none;  
   border: none;  
   cursor: pointer;  
   font-size: 20px;  
-}  
+} */
 
 /* Our Services Section */
 .services-section {
@@ -370,6 +446,7 @@ a {
 .service-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  font-family: 'Poppins';
 }
 
 .service-card p {
