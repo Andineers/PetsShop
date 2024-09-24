@@ -343,7 +343,7 @@ a {
 }  
 
 /* Our Services Section */
-/* .services-section {
+.services-section {
   padding: 40px 0;
   text-align: center;
 }
@@ -374,5 +374,5 @@ a {
 
 .service-card p {
   font-size: 16px;
-} */
+}
 
