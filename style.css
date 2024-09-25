@@ -286,7 +286,7 @@ a {
   font-family: 'Poppins';
 }
 
-.product-section {
+/* .product-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,7 +339,7 @@ a {
 }
 
 .product-price-rating .rating i {
-  color: #ffc107; /* Warna bintang */
+  color: #ffc107; 
 }
 
 .add-to-cart {
@@ -349,14 +349,14 @@ a {
 
 .add-to-cart i {
   font-size: 22px;
-  color: #ffc107; /* Warna tombol keranjang */
+  color: #ffc107; 
   cursor: pointer;
-}
+} */
 
 
 
 
-/* .product-carousel {
+.product-carousel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -377,21 +377,18 @@ a {
   background-color: #173340;  
   padding: 20px;  
   border-radius: 10px;  
-  width: 150px;  
-  text-align: center;  
+  width: 150px;    
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
 }  
 
 .product img {  
   width: 100px;  
   height: 100px;  
-  object-fit: cover;   
-  flex-direction: column;  
-  align-items: center;  
+  object-fit: cover;
   background-color: white;
   position: relative;
   top: -20px;
-  left: 50%; 
+  left: 40%; 
   transform: translateX(-50%); 
   padding: 10px; 
   border-radius: 10px; 
@@ -411,12 +408,12 @@ a {
   color: #FFD700;
 }  
 
-/* .favorite {  
+ .favorite {  
   background: none;  
   border: none;  
   cursor: pointer;  
   font-size: 20px;  
-} */
+}
 
 /* Our Services Section */
 .services-section {
@@ -453,3 +450,7 @@ a {
   font-size: 16px;
 }
 
+.service-card img {
+  width: 60px;
+  left: ;
+}
