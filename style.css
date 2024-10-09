@@ -14,18 +14,35 @@ body {
   display: flex;
   gap: 35px;
 }
+
+.menu a {
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  color: black; /* Warna teks */
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.3s; /* Transisi halus saat hover */
+}
+
+.menu a:hover {
+  color: #007bff; /* Warna saat hover */
+}
 .menu li {
   list-style: none;
   font-family: Poppins;
   font-weight: 500;
   font-size: 18px;
+  background: white;
 }
 .navbar {
   display: flex;
+  position: sticky;
   align-items: center;
   justify-content: space-around;
   width: 100vw;
-  gap: 50px;
+  padding: 10px 0;
+  background: white;
+  
+  /* gap: 50px; */
 }
 .navbar img {
   width: 70px;
@@ -282,7 +299,7 @@ a {
 .categories-section h2 {
   font-family: "Super Bubble", sans-serif;
   font-size: 32px;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .categories {
